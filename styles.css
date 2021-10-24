@@ -26,7 +26,7 @@ body {
 
 .controls .controls_colors{
     display: flex;
-
+    margin-bottom: 20px;
 }
 
 .controls_colors .controls_color{
@@ -41,7 +41,7 @@ body {
 .controls .controls_spinner{
     margin-bottom: 30px;
 }
-.controls .control-buttons{
+.controls .controls_buttons{
     margin-bottom: 30px;
 }
 .controls_buttons button{
@@ -51,6 +51,11 @@ body {
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.88);
     text-align:center;
     border : 2px soild rgb(black);
-    font-weight: 800px;
+    font-weight: 700;
     font-size: 20px;
+    margin : 10px;
+}
+
+.controls_buttons button:active{
+    transform : scale(0.97)
 }
