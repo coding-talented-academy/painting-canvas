@@ -13,12 +13,16 @@ function stopPainting(){
     painting = false;
 }
 
-function onMouseMove(){
-    if(painting == true){
+function onMouseMove(event){
+
+    console.log(event)
+    
+    /*if(painting == true){ //드래그 중
 
     }else if(painting == false){
-        
-    }
+        context.beginPath();
+
+    }*/
 }
 
 if(canvas){
